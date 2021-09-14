@@ -1,0 +1,163 @@
+2021-09-12 23:48:21,175 INFO [root] [test02_login.py (build_data:25] - 正在执行数据驱动，data=[({'mobile': '13800000002', 'password': '123456'}, 200, True, 10000, '操作成功'), ({'mobile': '', 'password': '123456'}, 200, False, 20001, '用户名或密码错误'), ({'mobile': '13800000002', 'password': ''}, 200, False, 20001, '用户名或密码错误'), ({'mobile': '13800000', 'password': '123456'}, 200, False, 20001, '用户名或密码错误'), ({'mobile': '13800000002000', 'password': '123456'}, 200, False, 20001, '用户名或密码错误'), ({'mobile': 'abcdefg', 'password': '123456'}, 200, False, 20001, '用户名或密码错误'), ({'mobile': '19937127322', 'password': '123456'}, 200, False, 20001, '用户名或密码错误'), ({'mobile': '13800000002', 'password': '123456', 'verify': '8888'}, 200, True, 10000, '操作成功'), ({'password': '123456'}, 200, False, 20001, '用户名或密码错误'), ({'mobile': '13800000002'}, 200, False, 20001, '用户名或密码错误'), (None, 200, False, 99999, '抱歉，系统繁忙，请稍后重试！'), ({'mobiles': '13800000002', 'password': '123456'}, 200, False, 20001, '用户名或密码错误'), ({'mobile': '13800000002', 'passwd': '123456'}, 200, False, 20001, '用户名或密码错误')]
+2021-09-12 23:48:21,180 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:21,180 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'password': '123456'}
+2021-09-12 23:48:21,184 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:21,569 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:21,570 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:21,570 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '', 'password': '123456'}
+2021-09-12 23:48:21,571 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:21,879 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:21,880 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:21,880 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'password': ''}
+2021-09-12 23:48:21,881 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:22,285 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:22,286 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:22,286 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '1380000000', 'password': '123456'}
+2021-09-12 23:48:22,287 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:22,418 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:22,419 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:22,419 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '138000000023', 'password': '123456'}
+2021-09-12 23:48:22,420 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:22,540 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:22,540 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:22,540 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': 'error', 'password': '123456'}
+2021-09-12 23:48:22,542 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:22,656 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:22,657 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:22,657 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13812321236', 'password': '123456'}
+2021-09-12 23:48:22,659 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:22,848 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:22,849 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:22,849 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'password': '123456', 'haha': 'xixi'}
+2021-09-12 23:48:22,850 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:23,038 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:23,039 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:23,039 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'password': '123456'}
+2021-09-12 23:48:23,040 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:24,244 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:24,246 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:24,246 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002'}
+2021-09-12 23:48:24,247 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:24,417 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:24,418 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:24,418 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:None
+2021-09-12 23:48:24,419 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:25,038 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:25,039 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:25,039 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobiel': '13800000002', 'password': '123456'}
+2021-09-12 23:48:25,040 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:25,245 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:25,246 INFO [root] [test01_login.py (setUp:15] - 正在初始化TestLogin测试类
+2021-09-12 23:48:25,246 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'passwd': '123456'}
+2021-09-12 23:48:25,247 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:25,445 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:25,446 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:25,446 INFO [root] [test02_login.py (test_login01:40] - 正在执行test_login01测试方法
+2021-09-12 23:48:25,446 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'password': '123456'}
+2021-09-12 23:48:25,447 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:25,709 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:25,710 INFO [root] [test02_login.py (test_login01:46] - 返回response：{"success":true,"code":10000,"message":"操作成功！","data":"171c59f7-ab32-4897-920a-678bba51fd9f"}
+2021-09-12 23:48:25,710 INFO [root] [test02_login.py (test_login01:59] - TOKEN获取成功，TOKEN = 171c59f7-ab32-4897-920a-678bba51fd9f
+2021-09-12 23:48:25,710 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:25,711 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:25,711 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'password': '123456'}
+2021-09-12 23:48:25,712 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:25,867 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:25,868 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":true,"code":10000,"message":"操作成功！","data":"351ebba3-0f2f-42f5-af8f-b1c952ca216b"}
+2021-09-12 23:48:25,868 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:25,868 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:25,868 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '', 'password': '123456'}
+2021-09-12 23:48:25,870 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:26,032 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:26,033 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:26,033 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:26,033 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:26,033 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'password': ''}
+2021-09-12 23:48:26,034 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:26,139 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:26,140 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:26,140 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:26,140 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:26,140 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000', 'password': '123456'}
+2021-09-12 23:48:26,141 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:26,270 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:26,271 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:26,271 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:26,271 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:26,271 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002000', 'password': '123456'}
+2021-09-12 23:48:26,272 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:26,384 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:26,385 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:26,385 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:26,385 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:26,385 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': 'abcdefg', 'password': '123456'}
+2021-09-12 23:48:26,386 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:26,501 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:26,502 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:26,502 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:26,502 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:26,502 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '19937127322', 'password': '123456'}
+2021-09-12 23:48:26,504 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:26,620 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:26,621 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:26,621 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:26,621 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:26,622 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'password': '123456', 'verify': '8888'}
+2021-09-12 23:48:26,623 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:27,112 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:27,113 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":true,"code":10000,"message":"操作成功！","data":"f96e2321-3675-457d-b632-68623723e63f"}
+2021-09-12 23:48:27,113 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:27,113 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:27,113 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'password': '123456'}
+2021-09-12 23:48:27,115 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:27,229 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:27,229 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:27,230 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:27,230 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:27,230 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002'}
+2021-09-12 23:48:27,231 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:27,422 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:27,422 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:27,423 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:27,423 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:27,423 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:None
+2021-09-12 23:48:27,424 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:28,557 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:28,558 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":99999,"message":"抱歉，系统繁忙，请稍后重试！","data":null}
+2021-09-12 23:48:28,558 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:28,558 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:28,558 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobiles': '13800000002', 'password': '123456'}
+2021-09-12 23:48:28,559 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:28,776 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:28,777 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:28,777 INFO [root] [test02_login.py (setUp:32] - 正在初始化LoginTest测试类
+2021-09-12 23:48:28,777 INFO [root] [test02_login.py (test_login02:63] - 正在执行test_login02测试方法
+2021-09-12 23:48:28,777 INFO [root] [login.py (login:16] - 正在调用登录接口，url:http://ihrm-test.itheima.net/api/sys/login，data:{'mobile': '13800000002', 'passwd': '123456'}
+2021-09-12 23:48:28,778 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:28,935 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2021-09-12 23:48:28,936 INFO [root] [test02_login.py (test_login02:66] - 返回response：{"success":false,"code":20001,"message":"用户名或密码错误","data":null}
+2021-09-12 23:48:28,936 INFO [root] [test03_employee.py (setUp:18] - 正在初始化EmployeeTest测试类
+2021-09-12 23:48:28,936 INFO [root] [test03_employee.py (test01_add_employee:23] - 正在执行test01_add_employee测试方法
+2021-09-12 23:48:28,936 INFO [root] [employee.py (employee_add:16] - 正在调用员工添加接口，url：http://ihrm-test.itheima.net/api/sys/user，add_data：{'username': '380phPeg', 'mobile': '15817488074', 'timeOfEntry': '2021-07-26', 'formOfEmployment': 1, 'workNumber': '264138097', 'departmentName': '自动化测试', 'departmentId': '33660', 'correctionTime': '2021-10-26'}，headers_data：{'Content-Type': 'Application/json', 'Authorization': '171c59f7-ab32-4897-920a-678bba51fd9f'}
+2021-09-12 23:48:28,937 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:29,130 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2021-09-12 23:48:29,130 INFO [root] [test03_employee.py (test01_add_employee:35] - 返回response：{"success":true,"code":10000,"message":"操作成功！","data":{"departmentId":"33660","id":"1437080740427726848"}}
+2021-09-12 23:48:29,131 INFO [root] [test03_employee.py (test01_add_employee:44] - 员工添加成功，员工ID为1437080740427726848
+2021-09-12 23:48:29,131 INFO [root] [test03_employee.py (setUp:18] - 正在初始化EmployeeTest测试类
+2021-09-12 23:48:29,131 INFO [root] [test03_employee.py (test02_update_employee:48] - 正在执行test02_update_employee测试方法
+2021-09-12 23:48:29,131 INFO [root] [employee.py (employee_update:22] - 正在调用员工修改接口，url：http://ihrm-test.itheima.net/api/sys/user/1437080740427726848，update_data：{'username': 'jack111', 'departmentName': '系统测试'}，headers_data：{'Content-Type': 'Application/json', 'Authorization': '171c59f7-ab32-4897-920a-678bba51fd9f'}，employee_id：1437080740427726848
+2021-09-12 23:48:29,132 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:29,278 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "PUT /api/sys/user/1437080740427726848 HTTP/1.1" 200 None
+2021-09-12 23:48:29,279 INFO [root] [test03_employee.py (test02_update_employee:54] - 返回response：{"success":true,"code":10000,"message":"操作成功！","data":{"departmentName":"系统测试","workNumber":"264138097","departmentId":"33660","mobile":"15817488074","id":"1437080740427726848","username":"jack111"}}
+2021-09-12 23:48:29,279 INFO [root] [test03_employee.py (setUp:18] - 正在初始化EmployeeTest测试类
+2021-09-12 23:48:29,279 INFO [root] [test03_employee.py (test03_get_employee:64] - 正在执行test03_get_employee测试方法
+2021-09-12 23:48:29,279 INFO [root] [employee.py (employee_get:28] - 正在调用员工查询接口，url：http://ihrm-test.itheima.net/api/sys/user/1437080740427726848，headers_data：{'Content-Type': 'Application/json', 'Authorization': '171c59f7-ab32-4897-920a-678bba51fd9f'}，employee_id：1437080740427726848
+2021-09-12 23:48:29,280 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:29,517 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "GET /api/sys/user/1437080740427726848 HTTP/1.1" 200 None
+2021-09-12 23:48:29,517 INFO [root] [test03_employee.py (test03_get_employee:66] - 返回response：{"success":true,"code":10000,"message":"操作成功！","data":{"id":"1437080740427726848","mobile":"15817488074","username":"jack111","enableState":1,"departmentId":"33660","timeOfEntry":"2021-07-26T00:00:00.000+0000","formOfEmployment":1,"workNumber":"264138097","departmentName":"系统测试","roleIds":[],"staffPhoto":null}}
+2021-09-12 23:48:29,518 INFO [root] [test03_employee.py (setUp:18] - 正在初始化EmployeeTest测试类
+2021-09-12 23:48:29,518 INFO [root] [test03_employee.py (test04_delete_employee:75] - 正在执行test04_delete_employee测试方法
+2021-09-12 23:48:29,518 INFO [root] [employee.py (employee_delete:34] - 正在调用员工删除接口，url：http://ihrm-test.itheima.net/api/sys/user/1437080740427726848，headers_data：{'Content-Type': 'Application/json', 'Authorization': '171c59f7-ab32-4897-920a-678bba51fd9f'}，employee_id：1437080740427726848
+2021-09-12 23:48:29,519 DEBUG [urllib3.connectionpool] [connectionpool.py (_new_conn:227] - Starting new HTTP connection (1): ihrm-test.itheima.net:80
+2021-09-12 23:48:29,682 DEBUG [urllib3.connectionpool] [connectionpool.py (_make_request:452] - http://ihrm-test.itheima.net:80 "DELETE /api/sys/user/1437080740427726848 HTTP/1.1" 200 None
+2021-09-12 23:48:29,683 INFO [root] [test03_employee.py (test04_delete_employee:77] - 返回response：{"success":true,"code":10000,"message":"操作成功！","data":null}
